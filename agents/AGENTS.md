@@ -13,8 +13,6 @@
 - `sudo` inside the yard is allowed for yard-local changes. Never act on the
   host (no SSH to the host); ask Dmitry to run host commands and continue with
   the result.
-- When you need permission for something, prefer a series of clear, simple
-  commands that are easy to review.
 - Follow the project's own commit and pull request rules. Without them, work
   on a branch and open a pull request; never push to the default branch or
   rewrite shared history; use `--force-with-lease` only on your own branch.
